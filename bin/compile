@@ -106,9 +106,7 @@ tlmgr install fancyvrb
 
 build-step "Installing ViroCon-specific packages"
 
-tlmgr install inputenc
-tlmgr install amsmath
-tlmgr install graphicx
+tlmgr install graphics
 tlmgr install float
 
 build-step "Updating installed packages..."
