@@ -23,7 +23,7 @@ docker run -ti -v path/to/my/tex/files:/app heroku-tex
 ### Setup
 
 ```shell
-heroku buildpacks:add git://github.com/Thermondo/heroku-buildpack-tex.git#VERSION_NUMBER
+heroku buildpacks:add git://github.com/ahaselsteiner/heroku-buildpack-tex.git#VERSION_NUMBER
 ```
 
 ### How does it work?
@@ -41,6 +41,8 @@ can take some time. But in doing so you also gain more freedom with the
 selection of your packages.
 
 ### Custom packages
+
+In this version custom packages needed for [ViroCon](https://github.com/ahaselsteiner/virocon) were added.
 
 You can add a file called `texlive.packages` in your repo:
 
