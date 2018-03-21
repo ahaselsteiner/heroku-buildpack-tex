@@ -103,6 +103,10 @@ tlmgr install fontspec
 tlmgr install xkeyval
 tlmgr install booktabs
 tlmgr install fancyvrb
+tlmgr install inputenc
+tlmgr install amsmath
+tlmgr install graphicx
+tlmgr install float
 
 build-step "Updating installed packages..."
 tlmgr update --all
