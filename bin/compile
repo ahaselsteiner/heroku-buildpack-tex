@@ -108,6 +108,8 @@ build-step "Installing ViroCon-specific packages"
 
 tlmgr install graphics
 tlmgr install float
+tlmgr install lastpage
+tlmgr install fancyhdr
 
 build-step "Updating installed packages..."
 tlmgr update --all
